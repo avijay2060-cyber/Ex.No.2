@@ -1,7 +1,9 @@
 
 # Ex.No: 2 	Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: ChatGPT, Claude, Bard, Cohere Command, and Meta 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### NAME : A.VIJAY
+### DATE: 29.08.2025                                                                           
+### REGISTER NUMBER : 212223080055
+
  
 ### Aim:
 To compare the performance, user experience, and response quality of different AI platforms (ChatGPT, Claude, Bard, Cohere Command, and Meta) within a specific use case, such as summarizing text or answering technical questions. Generate a Prompt based output using different Prompting tools of 2024.
@@ -29,8 +31,90 @@ A comparison table outlining the performance of each platform (ChatGPT, Claude, 
 A final report summarizing the findings of the experiment, including recommendations on the most suitable AI platform for different use cases based on performance and user 
 
 ### Output:
+## 🔹 1. Zero-Shot Prompting
+
+**Prompt:**
+*"Summarize the following technical abstract in simple terms."*
+
+* **ChatGPT (OpenAI):** Clear, concise summary with simplified language.
+* **Claude (Anthropic):** More narrative, tends to expand with extra context.
+* **Bard (Google):** Concise but sometimes includes speculative extensions.
+* **Cohere Command:** Direct, factual, but less nuanced explanation.
+* **Meta LLaMA:** Technical, closer to original wording, less simplified.
+
+---
+
+## 🔹 2. Few-Shot Prompting
+
+**Prompt:**
+\*"Example:
+Input: 'This paper presents an AI model for disease prediction.'
+Output: 'The paper introduces an AI system that helps doctors predict diseases early.'
+
+Now summarize this text: \[Technical Abstract]"\*
+
+* **ChatGPT:** Matches the training style, adapts tone well.
+* **Claude:** Provides slightly longer summary but coherent.
+* **Bard:** Tries to mimic example exactly, sometimes rigid.
+* **Cohere:** Concise, accurate, but lacks stylistic variety.
+* **Meta LLaMA:** Keeps academic tone, not very “simple.”
+
+---
+
+## 🔹 3. Chain-of-Thought Prompting (Reasoning First)
+
+**Prompt:**
+*"Step 1: Identify the goal of the research.
+Step 2: Identify the method used.
+Step 3: Summarize in plain English."*
+
+* **ChatGPT:** Follows structured steps clearly.
+* **Claude:** Very detailed in reasoning, explains method + impact.
+* **Bard:** Sometimes skips steps, jumps to final summary.
+* **Cohere:** Step breakdown less detailed, final summary okay.
+* **Meta LLaMA:** Keeps steps technical, less user-friendly.
+
+---
+
+## 🔹 4. Role Prompting
+
+**Prompt:**
+*"You are a university professor explaining this research to undergraduate students. Summarize in simple, engaging language."*
+
+* **ChatGPT:** Friendly, student-focused explanation.
+* **Claude:** Conversational, adds analogies.
+* **Bard:** Simplified, but less engaging.
+* **Cohere:** Direct, plain, lacks metaphorical support.
+* **Meta LLaMA:** Still technical, less adapted to role.
+
+---
+
+## 🔹 5. Tabular Format Prompting
+
+**Prompt:**
+*"Summarize the abstract in a table with columns: Goal | Method | Results | Applications."*
+
+| Platform       | Goal                            | Method                   | Results                                  | Applications                        |
+| -------------- | ------------------------------- | ------------------------ | ---------------------------------------- | ----------------------------------- |
+| ChatGPT        | Low-power, area-efficient adder | MGDI-based CSLA design   | Reduced transistor count, improved delay | VLSI design, energy-efficient chips |
+| Claude         | Same as ChatGPT, more verbose   | Adds detail on CMOS tech | Energy efficiency, scalability           | VLSI, scalable processors           |
+| Bard           | Same, but less detail           | Focus on CSLA variation  | Mentions speed & power improvements      | General electronics, processors     |
+| Cohere Command | Minimal, factual                | MGDI                     | Power & delay improvements               | VLSI                                |
+| Meta LLaMA     | Technical phrasing              | CMOS + MGDI              | Simulation improvements                  | Hardware architecture research      |
+
+---
+
+## 🔹 Key Insights (2024 Prompting Tools)
+
+* **ChatGPT**: Balanced, adaptable, strong role/tabular formatting.
+* **Claude**: Rich reasoning, strong for step-by-step or analogies.
+* **Bard**: Fast + concise, but sometimes speculative.
+* **Cohere Command**: Direct, factual, less nuanced.
+* **Meta LLaMA**: Technical, closer to research style, weaker on simplification.
+
+---
 
 ### Conclusion: 
 
 
-# Result : The Prompt for the above problem statement executed successfully.
+# Result : The Prompt for the above problem complete successfully.
